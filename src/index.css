@@ -28,6 +28,11 @@ body{
 ol, ul {
   padding-left: 0rem;
 }
+.socialLink{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
 /* responsive  */
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -43,6 +48,11 @@ ol, ul {
   }
   .contactinfo{
     text-align: start;
+  }
+  .socialLink{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
   }
   
 }
@@ -60,6 +70,11 @@ ol, ul {
   }
   .contactinfo{
     text-align: start;
+  }
+  .socialLink{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
   }
 }
 

@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <Col className='content'>
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} >
                         <div style={{display:'flex',gap:'10px',flexWrap:'warp',alignItems:'center'}}>
                             <div className='mobileLogo'>
                                 <img src={logo} style={{width:'100px',height:'100px',borderRadius:'50%'}} alt="" />

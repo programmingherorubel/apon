@@ -7,7 +7,9 @@ const Animation = () => {
                             sequence={[
                                 'I am a Civil Engineer', // Types 'One'
                                 1000, // Waits 1s
-                                'demo demo demo', // Deletes 'One' and types 'Two'
+                                '', // Deletes 'One' and types 'Two'
+                                500, // Waits 2s
+                                'I am a Civil Engineer', // Deletes 'One' and types 'Two'
                                 2000, // Waits 2s
                                 
                             ]}
