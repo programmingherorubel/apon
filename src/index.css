@@ -1,0 +1,83 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-color: #0B1121;
+  color: gray;
+
+}
+.navbar{
+  width: 250px;
+  position: fixed;
+  border-right: 8px solid rgba(68, 68, 68, 0.452);
+  height: 100vh;
+}
+.content{
+  margin-left: 300px;
+}
+.mobileLogo{
+  display: none;
+}
+.contactinfo{
+  text-align: end;
+}
+ol, ul {
+  padding-left: 0rem;
+}
+
+/* responsive  */
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .navbar{
+    display: none;
+  }
+  .content{
+    margin-left: 0px;
+  }
+  .mobileLogo{
+    display: block;
+  }
+  .contactinfo{
+    text-align: start;
+  }
+  
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar{
+    display: none;
+  }
+  .content{
+    margin-left: 0px;
+  }
+  .mobileLogo{
+    display: block;
+  }
+  .contactinfo{
+    text-align: start;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}
